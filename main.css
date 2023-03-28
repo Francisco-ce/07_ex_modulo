@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(221, 221, 221);
+}
+
+body {
+    margin: 10px 250px auto 250px;
+    padding: 10px 10px 10px 10px;
+    border: solid 1px #0000CD ;
+}
+
+
+
+header h1 {
+    background: #0000CD;
+    margin-top: 0;
+    margin-bottom:20px;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+/* Por que não fica alinhado com o cabeçalho?*/
+input {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 500px;
+    border: dotted 1px #0000CD ;
+    height: 25px;
+    width:100%;
+    
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #0000CD;
+    color: #F5F5F5;
+    border: none;
+    height: 30px;
+    width: 100px;
+
+}
+
+.message-error {
+    display: none;
+    margin-bottom:5px;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+}
+
+.container {
+    margin: 0 20px;
+}

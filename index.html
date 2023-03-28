@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <title>Site_Projeto_2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Montserrat:wght@100&family=Roboto+Mono:wght@100&family=Saira+Condensed:wght@100;200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Projeto 2 - Validando Números</h1>
+    </header>  
+    <main>
+        <form id="number-check">
+            <div class="container">
+                <input id="number-1" min="0" max="20" id="id-number-1" type="number" placeholder="Digite um número" required>
+            </div>
+            <div class="container">
+                <input id="number-2" min="0" max="30" id="id-number-2" type="number" placeholder="Digite um número maior que o anterior" required>
+            </div>
+            <div class="message-error"></div>
+            <div class="container">
+                <button type="submit">Validar</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="./main.js"></script>
+</html>
