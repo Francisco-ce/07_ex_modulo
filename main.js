@@ -13,6 +13,7 @@ form.addEventListener('submit', function(e) {
     const number2 = parseFloat(document.getElementById('number-2').value);
 
     const messageerror = 'Número menor que o anterior';
+    const messageSuccess = 'Números corretos'
 
     valor_1 = checkSecondNumber(number1, number2);
 
@@ -22,7 +23,10 @@ form.addEventListener('submit', function(e) {
         espacomensagem.style.display = 'block';
 
     } else {
-        document.querySelector('.message-error').style.display = 'none';
+        const espacomensagem = document.querySelector('.message-error');
+        espacomensagem.innerHTML = messageSuccess;
+        espacomensagem.style.display = 'block';
+        espacomensagem.style.backgroundColor = 'green';
     }
 
 
